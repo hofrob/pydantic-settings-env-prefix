@@ -1,0 +1,15 @@
+[project]
+name = "pydantic-settings-env-prefix"
+version = "0.1.0"
+description = "Add your description here"
+requires-python = ">=3.12"
+dependencies = [
+    "pydantic-settings>=2.5.2",
+]
+
+[project.scripts]
+hello = "pydantic_settings_env_prefix:hello"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
